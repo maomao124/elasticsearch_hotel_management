@@ -9,6 +9,7 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.security.InvalidParameterException;
 
 /**
@@ -28,7 +29,7 @@ import java.security.InvalidParameterException;
 public class HotelServiceImpl extends ServiceImpl<HotelMapper, Hotel> implements IHotelService
 {
 
-    @Autowired
+    @Resource
     private RabbitTemplate rabbitTemplate;
 
 

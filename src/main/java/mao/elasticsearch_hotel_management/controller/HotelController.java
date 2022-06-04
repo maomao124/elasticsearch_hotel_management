@@ -4,6 +4,8 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import mao.elasticsearch_hotel_management.entity.Hotel;
 import mao.elasticsearch_hotel_management.entity.PageResult;
 import mao.elasticsearch_hotel_management.service.IHotelService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -29,6 +31,8 @@ public class HotelController
     @Autowired
     private IHotelService hotelService;
 
+
+    private static final Logger log = LoggerFactory.getLogger(HotelController.class);
 
     /**
      * 根据id查询酒店数据
@@ -56,6 +60,7 @@ public class HotelController
             @RequestParam(value = "size", defaultValue = "1") Integer size
     )
     {
+        log.debug("页码：" + page + "，页大小：" + size);
         Page<Hotel> result = hotelService.page(new Page<>(page, size));
         return new PageResult(result.getTotal(), result.getRecords());
     }

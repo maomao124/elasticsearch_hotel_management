@@ -20,14 +20,63 @@ public class PageResult
     private Long total;
     private List<Hotel> hotels;
 
+    /**
+     * Instantiates a new Page result.
+     */
     public PageResult()
     {
 
     }
 
+    /**
+     * Instantiates a new Page result.
+     *
+     * @param total  the total
+     * @param hotels the hotels
+     */
     public PageResult(Long total, List<Hotel> hotels)
     {
         this.total = total;
+        this.hotels = hotels;
+    }
+
+    /**
+     * Gets total.
+     *
+     * @return the total
+     */
+    public Long getTotal()
+    {
+        return total;
+    }
+
+    /**
+     * Sets total.
+     *
+     * @param total the total
+     */
+    public void setTotal(Long total)
+    {
+        this.total = total;
+    }
+
+    /**
+     * Gets hotels.
+     *
+     * @return the hotels
+     */
+    public List<Hotel> getHotels()
+    {
+        return hotels;
+    }
+
+    /**
+     * Sets hotels.
+     *
+     * @param hotels the hotels
+     */
+    public void setHotels(List<Hotel> hotels)
+    {
         this.hotels = hotels;
     }
 }
