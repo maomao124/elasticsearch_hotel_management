@@ -1,0 +1,105 @@
+2022-06-04 19:24:55.874 DEBUG 1328 --- [http-nio-8090-exec-10] m.e.controller.HotelController           : 页码：1，页大小：5
+2022-06-04 19:24:55.879 DEBUG 1328 --- [http-nio-8090-exec-10] m.e.m.HotelMapper.selectPage_mpCount     : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_hotel
+2022-06-04 19:24:55.880 DEBUG 1328 --- [http-nio-8090-exec-10] m.e.m.HotelMapper.selectPage_mpCount     : ==> Parameters: 
+2022-06-04 19:24:55.882 DEBUG 1328 --- [http-nio-8090-exec-10] m.e.m.HotelMapper.selectPage_mpCount     : <==      Total: 1
+2022-06-04 19:24:55.882 DEBUG 1328 --- [http-nio-8090-exec-10] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?
+2022-06-04 19:24:55.883 DEBUG 1328 --- [http-nio-8090-exec-10] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 5(Long)
+2022-06-04 19:24:55.885 DEBUG 1328 --- [http-nio-8090-exec-10] m.e.mapper.HotelMapper.selectPage        : <==      Total: 5
+2022-06-04 19:24:56.954 DEBUG 1328 --- [http-nio-8090-exec-2] m.e.controller.HotelController           : 页码：2，页大小：5
+2022-06-04 19:24:56.956 DEBUG 1328 --- [http-nio-8090-exec-2] m.e.m.HotelMapper.selectPage_mpCount     : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_hotel
+2022-06-04 19:24:56.956 DEBUG 1328 --- [http-nio-8090-exec-2] m.e.m.HotelMapper.selectPage_mpCount     : ==> Parameters: 
+2022-06-04 19:24:56.957 DEBUG 1328 --- [http-nio-8090-exec-2] m.e.m.HotelMapper.selectPage_mpCount     : <==      Total: 1
+2022-06-04 19:24:56.958 DEBUG 1328 --- [http-nio-8090-exec-2] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?,?
+2022-06-04 19:24:56.958 DEBUG 1328 --- [http-nio-8090-exec-2] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 5(Long), 5(Long)
+2022-06-04 19:24:56.959 DEBUG 1328 --- [http-nio-8090-exec-2] m.e.mapper.HotelMapper.selectPage        : <==      Total: 5
+2022-06-04 19:24:57.366 DEBUG 1328 --- [http-nio-8090-exec-3] m.e.controller.HotelController           : 页码：1，页大小：5
+2022-06-04 19:24:57.368 DEBUG 1328 --- [http-nio-8090-exec-3] m.e.m.HotelMapper.selectPage_mpCount     : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_hotel
+2022-06-04 19:24:57.368 DEBUG 1328 --- [http-nio-8090-exec-3] m.e.m.HotelMapper.selectPage_mpCount     : ==> Parameters: 
+2022-06-04 19:24:57.369 DEBUG 1328 --- [http-nio-8090-exec-3] m.e.m.HotelMapper.selectPage_mpCount     : <==      Total: 1
+2022-06-04 19:24:57.370 DEBUG 1328 --- [http-nio-8090-exec-3] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?
+2022-06-04 19:24:57.370 DEBUG 1328 --- [http-nio-8090-exec-3] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 5(Long)
+2022-06-04 19:24:57.372 DEBUG 1328 --- [http-nio-8090-exec-3] m.e.mapper.HotelMapper.selectPage        : <==      Total: 5
+2022-06-04 19:24:58.339 DEBUG 1328 --- [http-nio-8090-exec-5] m.e.controller.HotelController           : 页码：2，页大小：5
+2022-06-04 19:24:58.341 DEBUG 1328 --- [http-nio-8090-exec-5] m.e.m.HotelMapper.selectPage_mpCount     : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_hotel
+2022-06-04 19:24:58.341 DEBUG 1328 --- [http-nio-8090-exec-5] m.e.m.HotelMapper.selectPage_mpCount     : ==> Parameters: 
+2022-06-04 19:24:58.342 DEBUG 1328 --- [http-nio-8090-exec-5] m.e.m.HotelMapper.selectPage_mpCount     : <==      Total: 1
+2022-06-04 19:24:58.343 DEBUG 1328 --- [http-nio-8090-exec-5] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?,?
+2022-06-04 19:24:58.343 DEBUG 1328 --- [http-nio-8090-exec-5] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 5(Long), 5(Long)
+2022-06-04 19:24:58.344 DEBUG 1328 --- [http-nio-8090-exec-5] m.e.mapper.HotelMapper.selectPage        : <==      Total: 5
+2022-06-04 19:24:59.333 DEBUG 1328 --- [http-nio-8090-exec-8] m.e.controller.HotelController           : 页码：1，页大小：5
+2022-06-04 19:24:59.335 DEBUG 1328 --- [http-nio-8090-exec-8] m.e.m.HotelMapper.selectPage_mpCount     : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_hotel
+2022-06-04 19:24:59.336 DEBUG 1328 --- [http-nio-8090-exec-8] m.e.m.HotelMapper.selectPage_mpCount     : ==> Parameters: 
+2022-06-04 19:24:59.337 DEBUG 1328 --- [http-nio-8090-exec-8] m.e.m.HotelMapper.selectPage_mpCount     : <==      Total: 1
+2022-06-04 19:24:59.338 DEBUG 1328 --- [http-nio-8090-exec-8] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?
+2022-06-04 19:24:59.338 DEBUG 1328 --- [http-nio-8090-exec-8] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 5(Long)
+2022-06-04 19:24:59.339 DEBUG 1328 --- [http-nio-8090-exec-8] m.e.mapper.HotelMapper.selectPage        : <==      Total: 5
+2022-06-04 19:25:21.755 DEBUG 1328 --- [http-nio-8090-exec-4] m.e.controller.HotelController           : 页码：5，页大小：5
+2022-06-04 19:25:21.757 DEBUG 1328 --- [http-nio-8090-exec-4] m.e.m.HotelMapper.selectPage_mpCount     : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_hotel
+2022-06-04 19:25:21.757 DEBUG 1328 --- [http-nio-8090-exec-4] m.e.m.HotelMapper.selectPage_mpCount     : ==> Parameters: 
+2022-06-04 19:25:21.758 DEBUG 1328 --- [http-nio-8090-exec-4] m.e.m.HotelMapper.selectPage_mpCount     : <==      Total: 1
+2022-06-04 19:25:21.759 DEBUG 1328 --- [http-nio-8090-exec-4] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?,?
+2022-06-04 19:25:21.759 DEBUG 1328 --- [http-nio-8090-exec-4] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 20(Long), 5(Long)
+2022-06-04 19:25:21.760 DEBUG 1328 --- [http-nio-8090-exec-4] m.e.mapper.HotelMapper.selectPage        : <==      Total: 5
+2022-06-04 19:25:28.442 DEBUG 1328 --- [http-nio-8090-exec-6] m.e.controller.HotelController           : 页码：1，页大小：5
+2022-06-04 19:25:28.444 DEBUG 1328 --- [http-nio-8090-exec-6] m.e.m.HotelMapper.selectPage_mpCount     : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_hotel
+2022-06-04 19:25:28.444 DEBUG 1328 --- [http-nio-8090-exec-6] m.e.m.HotelMapper.selectPage_mpCount     : ==> Parameters: 
+2022-06-04 19:25:28.445 DEBUG 1328 --- [http-nio-8090-exec-6] m.e.m.HotelMapper.selectPage_mpCount     : <==      Total: 1
+2022-06-04 19:25:28.446 DEBUG 1328 --- [http-nio-8090-exec-6] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?
+2022-06-04 19:25:28.446 DEBUG 1328 --- [http-nio-8090-exec-6] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 5(Long)
+2022-06-04 19:25:28.447 DEBUG 1328 --- [http-nio-8090-exec-6] m.e.mapper.HotelMapper.selectPage        : <==      Total: 5
+2022-06-04 19:26:26.660 DEBUG 1328 --- [http-nio-8090-exec-7] m.e.mapper.HotelMapper.updateById        : ==>  Preparing: UPDATE tb_hotel SET name=?, address=?, price=?, score=?, brand=?, city=?, star_name=?, business=?, longitude=?, latitude=?, pic=? WHERE id=?
+2022-06-04 19:26:26.660 DEBUG 1328 --- [http-nio-8090-exec-7] m.e.mapper.HotelMapper.updateById        : ==> Parameters: 7天连锁酒店(上海宝山路地铁站店)(String), 静安交通路40号(String), 336(Integer), 37(Integer), 7天酒店(String), 上海(String), 二钻(String), 四川北路商业区(String), 121.47522(String), 31.251433(String), https://m.tuniucdn.com/fb2/t1/G1/M00/3E/40/Cii9EVkyLrKIXo1vAAHgrxo_pUcAALcKQLD688AAeDH564_w200_h200_c1_t0.jpg(String), 36934(Long)
+2022-06-04 19:26:26.662 DEBUG 1328 --- [http-nio-8090-exec-7] m.e.mapper.HotelMapper.updateById        : <==    Updates: 1
+2022-06-04 19:26:26.665  INFO 1328 --- [http-nio-8090-exec-7] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2022-06-04 19:26:26.684  INFO 1328 --- [http-nio-8090-exec-7] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#73de324b:0/SimpleConnection@49393e78 [delegate=amqp://admin@127.0.0.1:5672/, localPort= 63897]
+2022-06-04 19:26:26.687  INFO 1328 --- [http-nio-8090-exec-7] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable or auto-delete Exchange (hotel.exchange) durable:false, auto-delete:false. It will be deleted by the broker if it shuts down, and can be redeclared by closing and reopening the connection.
+2022-06-04 19:26:26.687  INFO 1328 --- [http-nio-8090-exec-7] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (hotel.insert.queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-06-04 19:26:26.687  INFO 1328 --- [http-nio-8090-exec-7] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (hotel.delete.queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-06-04 19:26:26.713 DEBUG 1328 --- [http-nio-8090-exec-7] m.e.service.impl.HotelServiceImpl        : 往消息队列里发送消息，更新：36934
+2022-06-04 19:26:26.721 DEBUG 1328 --- [http-nio-8090-exec-9] m.e.controller.HotelController           : 页码：1，页大小：5
+2022-06-04 19:26:26.723 DEBUG 1328 --- [http-nio-8090-exec-9] m.e.m.HotelMapper.selectPage_mpCount     : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_hotel
+2022-06-04 19:26:26.723 DEBUG 1328 --- [http-nio-8090-exec-9] m.e.m.HotelMapper.selectPage_mpCount     : ==> Parameters: 
+2022-06-04 19:26:26.725 DEBUG 1328 --- [http-nio-8090-exec-9] m.e.m.HotelMapper.selectPage_mpCount     : <==      Total: 1
+2022-06-04 19:26:26.726 DEBUG 1328 --- [http-nio-8090-exec-9] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?
+2022-06-04 19:26:26.726 DEBUG 1328 --- [http-nio-8090-exec-9] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 5(Long)
+2022-06-04 19:26:26.728 DEBUG 1328 --- [http-nio-8090-exec-9] m.e.mapper.HotelMapper.selectPage        : <==      Total: 5
+2022-06-04 19:26:57.610 DEBUG 1328 --- [http-nio-8090-exec-1] m.e.controller.HotelController           : 页码：6，页大小：5
+2022-06-04 19:26:57.611 DEBUG 1328 --- [http-nio-8090-exec-1] m.e.m.HotelMapper.selectPage_mpCount     : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_hotel
+2022-06-04 19:26:57.612 DEBUG 1328 --- [http-nio-8090-exec-1] m.e.m.HotelMapper.selectPage_mpCount     : ==> Parameters: 
+2022-06-04 19:26:57.613 DEBUG 1328 --- [http-nio-8090-exec-1] m.e.m.HotelMapper.selectPage_mpCount     : <==      Total: 1
+2022-06-04 19:26:57.614 DEBUG 1328 --- [http-nio-8090-exec-1] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?,?
+2022-06-04 19:26:57.614 DEBUG 1328 --- [http-nio-8090-exec-1] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 25(Long), 5(Long)
+2022-06-04 19:26:57.615 DEBUG 1328 --- [http-nio-8090-exec-1] m.e.mapper.HotelMapper.selectPage        : <==      Total: 5
+2022-06-04 20:26:17.222 DEBUG 1328 --- [http-nio-8090-exec-6] m.e.controller.HotelController           : 页码：4，页大小：5
+2022-06-04 20:26:17.266 DEBUG 1328 --- [http-nio-8090-exec-6] m.e.m.HotelMapper.selectPage_mpCount     : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_hotel
+2022-06-04 20:26:17.267 DEBUG 1328 --- [http-nio-8090-exec-6] m.e.m.HotelMapper.selectPage_mpCount     : ==> Parameters: 
+2022-06-04 20:26:17.270 DEBUG 1328 --- [http-nio-8090-exec-6] m.e.m.HotelMapper.selectPage_mpCount     : <==      Total: 1
+2022-06-04 20:26:17.271 DEBUG 1328 --- [http-nio-8090-exec-6] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?,?
+2022-06-04 20:26:17.271 DEBUG 1328 --- [http-nio-8090-exec-6] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 15(Long), 5(Long)
+2022-06-04 20:26:17.273 DEBUG 1328 --- [http-nio-8090-exec-6] m.e.mapper.HotelMapper.selectPage        : <==      Total: 5
+2022-06-04 20:26:18.786 DEBUG 1328 --- [http-nio-8090-exec-7] m.e.controller.HotelController           : 页码：3，页大小：5
+2022-06-04 20:26:18.788 DEBUG 1328 --- [http-nio-8090-exec-7] m.e.m.HotelMapper.selectPage_mpCount     : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_hotel
+2022-06-04 20:26:18.788 DEBUG 1328 --- [http-nio-8090-exec-7] m.e.m.HotelMapper.selectPage_mpCount     : ==> Parameters: 
+2022-06-04 20:26:18.790 DEBUG 1328 --- [http-nio-8090-exec-7] m.e.m.HotelMapper.selectPage_mpCount     : <==      Total: 1
+2022-06-04 20:26:18.790 DEBUG 1328 --- [http-nio-8090-exec-7] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?,?
+2022-06-04 20:26:18.790 DEBUG 1328 --- [http-nio-8090-exec-7] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 10(Long), 5(Long)
+2022-06-04 20:26:18.792 DEBUG 1328 --- [http-nio-8090-exec-7] m.e.mapper.HotelMapper.selectPage        : <==      Total: 5
+2022-06-04 20:26:19.784 DEBUG 1328 --- [http-nio-8090-exec-9] m.e.controller.HotelController           : 页码：2，页大小：5
+2022-06-04 20:26:19.785 DEBUG 1328 --- [http-nio-8090-exec-9] m.e.m.HotelMapper.selectPage_mpCount     : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_hotel
+2022-06-04 20:26:19.785 DEBUG 1328 --- [http-nio-8090-exec-9] m.e.m.HotelMapper.selectPage_mpCount     : ==> Parameters: 
+2022-06-04 20:26:19.787 DEBUG 1328 --- [http-nio-8090-exec-9] m.e.m.HotelMapper.selectPage_mpCount     : <==      Total: 1
+2022-06-04 20:26:19.787 DEBUG 1328 --- [http-nio-8090-exec-9] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?,?
+2022-06-04 20:26:19.788 DEBUG 1328 --- [http-nio-8090-exec-9] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 5(Long), 5(Long)
+2022-06-04 20:26:19.789 DEBUG 1328 --- [http-nio-8090-exec-9] m.e.mapper.HotelMapper.selectPage        : <==      Total: 5
+2022-06-04 20:26:21.224 DEBUG 1328 --- [http-nio-8090-exec-1] m.e.controller.HotelController           : 页码：1，页大小：5
+2022-06-04 20:26:21.226 DEBUG 1328 --- [http-nio-8090-exec-1] m.e.m.HotelMapper.selectPage_mpCount     : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_hotel
+2022-06-04 20:26:21.226 DEBUG 1328 --- [http-nio-8090-exec-1] m.e.m.HotelMapper.selectPage_mpCount     : ==> Parameters: 
+2022-06-04 20:26:21.227 DEBUG 1328 --- [http-nio-8090-exec-1] m.e.m.HotelMapper.selectPage_mpCount     : <==      Total: 1
+2022-06-04 20:26:21.228 DEBUG 1328 --- [http-nio-8090-exec-1] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?
+2022-06-04 20:26:21.228 DEBUG 1328 --- [http-nio-8090-exec-1] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 5(Long)
+2022-06-04 20:26:21.229 DEBUG 1328 --- [http-nio-8090-exec-1] m.e.mapper.HotelMapper.selectPage        : <==      Total: 5
+2022-06-04 20:26:22.357 DEBUG 1328 --- [http-nio-8090-exec-10] m.e.controller.HotelController           : 页码：5，页大小：5
+2022-06-04 20:26:22.359 DEBUG 1328 --- [http-nio-8090-exec-10] m.e.m.HotelMapper.selectPage_mpCount     : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_hotel
+2022-06-04 20:26:22.359 DEBUG 1328 --- [http-nio-8090-exec-10] m.e.m.HotelMapper.selectPage_mpCount     : ==> Parameters: 
+2022-06-04 20:26:22.361 DEBUG 1328 --- [http-nio-8090-exec-10] m.e.m.HotelMapper.selectPage_mpCount     : <==      Total: 1
+2022-06-04 20:26:22.361 DEBUG 1328 --- [http-nio-8090-exec-10] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?,?
