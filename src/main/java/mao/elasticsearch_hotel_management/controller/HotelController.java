@@ -1,11 +1,9 @@
 package mao.elasticsearch_hotel_management.controller;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import mao.elasticsearch_hotel_management.constants.RabbitMQConstants;
 import mao.elasticsearch_hotel_management.entity.Hotel;
 import mao.elasticsearch_hotel_management.entity.PageResult;
 import mao.elasticsearch_hotel_management.service.IHotelService;
-import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

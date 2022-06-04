@@ -19,9 +19,24 @@ import mao.elasticsearch_hotel_management.entity.Hotel;
 public interface IHotelService extends IService<Hotel>
 {
 
+    /**
+     * 删除酒店数据
+     *
+     * @param id 要删除的酒店id
+     */
     void deleteHotelById(Long id);
 
+    /**
+     * 更新酒店数据
+     *
+     * @param hotel Hotel
+     */
     void updateHotelById(Hotel hotel);
 
+    /**
+     * 保存或者添加一条酒店信息
+     *
+     * @param hotel Hotel
+     */
     void saveHotel(Hotel hotel);
 }
