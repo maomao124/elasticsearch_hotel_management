@@ -1,0 +1,10 @@
+H:\程序\大三下期\elasticsearch_hotel_management\src\main\java\mao\elasticsearch_hotel_management\service\impl\HotelServiceImpl.java
+H:\程序\大三下期\elasticsearch_hotel_management\src\main\java\mao\elasticsearch_hotel_management\constants\RabbitMQConstants.java
+H:\程序\大三下期\elasticsearch_hotel_management\src\main\java\mao\elasticsearch_hotel_management\entity\PageResult.java
+H:\程序\大三下期\elasticsearch_hotel_management\src\main\java\mao\elasticsearch_hotel_management\mapper\HotelMapper.java
+H:\程序\大三下期\elasticsearch_hotel_management\src\main\java\mao\elasticsearch_hotel_management\service\IHotelService.java
+H:\程序\大三下期\elasticsearch_hotel_management\src\main\java\mao\elasticsearch_hotel_management\config\RabbitMQConfig.java
+H:\程序\大三下期\elasticsearch_hotel_management\src\main\java\mao\elasticsearch_hotel_management\entity\Hotel.java
+H:\程序\大三下期\elasticsearch_hotel_management\src\main\java\mao\elasticsearch_hotel_management\ElasticsearchHotelManagementApplication.java
+H:\程序\大三下期\elasticsearch_hotel_management\src\main\java\mao\elasticsearch_hotel_management\config\MybatisPlusConfig.java
+H:\程序\大三下期\elasticsearch_hotel_management\src\main\java\mao\elasticsearch_hotel_management\controller\HotelController.java
