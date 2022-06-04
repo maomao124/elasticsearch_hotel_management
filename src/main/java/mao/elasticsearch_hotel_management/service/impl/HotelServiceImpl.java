@@ -36,9 +36,13 @@ public class HotelServiceImpl extends ServiceImpl<HotelMapper, Hotel> implements
     @Override
     public void deleteHotelById(Long id)
     {
-        this.removeById(id);
-        //发送MQ消息
-        rabbitTemplate.convertAndSend(RabbitMQConstants.EXCHANGE_NAME, RabbitMQConstants.DELETE_KEY, id);
+        boolean remove = this.removeById(id);
+        if (remove)
+        {
+            //发送MQ消息
+            rabbitTemplate.convertAndSend(RabbitMQConstants.EXCHANGE_NAME, RabbitMQConstants.DELETE_KEY, id);
+            log.debug("往消息队列里发送消息，删除："+id);
+        }
     }
 
     @Override
@@ -55,18 +59,24 @@ public class HotelServiceImpl extends ServiceImpl<HotelMapper, Hotel> implements
         {
             //发送MQ消息
             rabbitTemplate.convertAndSend(RabbitMQConstants.EXCHANGE_NAME, RabbitMQConstants.INSERT_KEY, hotel.getId());
+            log.debug("往消息队列里发送消息，更新："+hotel.getId());
         }
     }
 
     @Override
     public void saveHotel(Hotel hotel)
     {
-        // 新增酒店
+        if (hotel.getId() == null)
+        {
+            throw new InvalidParameterException("id不能为空");
+        }
+        //新增酒店
         boolean save = this.save(hotel);
         if (save)
         {
             // 发送MQ消息
             rabbitTemplate.convertAndSend(RabbitMQConstants.EXCHANGE_NAME, RabbitMQConstants.INSERT_KEY, hotel.getId());
+            log.debug("往消息队列里发送消息，添加："+hotel.getId());
         }
     }
 }
