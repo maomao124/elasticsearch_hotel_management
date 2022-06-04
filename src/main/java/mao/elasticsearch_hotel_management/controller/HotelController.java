@@ -31,54 +31,67 @@ public class HotelController
     @Autowired
     private IHotelService hotelService;
 
-    @Autowired
-    private RabbitTemplate rabbitTemplate;
 
+    /**
+     * 根据id查询酒店数据
+     *
+     * @param id id
+     * @return Hotel
+     */
     @GetMapping("/{id}")
     public Hotel queryById(@PathVariable("id") Long id)
     {
         return hotelService.getById(id);
     }
 
+    /**
+     * 获得酒店数据，分页
+     *
+     * @param page 当前页
+     * @param size 页大小
+     * @return PageResult
+     */
     @GetMapping("/list")
     public PageResult hotelList
-            (
-                    @RequestParam(value = "page", defaultValue = "1") Integer page,
-                    @RequestParam(value = "size", defaultValue = "1") Integer size
-            )
+    (
+            @RequestParam(value = "page", defaultValue = "1") Integer page,
+            @RequestParam(value = "size", defaultValue = "1") Integer size
+    )
     {
         Page<Hotel> result = hotelService.page(new Page<>(page, size));
-
         return new PageResult(result.getTotal(), result.getRecords());
     }
 
+    /**
+     * 保存或者添加一条酒店信息
+     *
+     * @param hotel Hotel
+     */
     @PostMapping
     public void saveHotel(@RequestBody Hotel hotel)
     {
-        // 新增酒店
-        hotelService.save(hotel);
-        // 发送MQ消息
-        rabbitTemplate.convertAndSend(RabbitMQConstants.EXCHANGE_NAME, RabbitMQConstants.INSERT_KEY, hotel.getId());
+        hotelService.saveHotel(hotel);
     }
 
+    /**
+     * 更新酒店数据
+     *
+     * @param hotel Hotel
+     */
     @PutMapping()
     public void updateById(@RequestBody Hotel hotel)
     {
-        if (hotel.getId() == null)
-        {
-            throw new InvalidParameterException("id不能为空");
-        }
-        hotelService.updateById(hotel);
-
-        // 发送MQ消息
-        rabbitTemplate.convertAndSend(RabbitMQConstants.EXCHANGE_NAME, RabbitMQConstants.INSERT_KEY, hotel.getId());
+        hotelService.updateHotelById(hotel);
     }
 
+    /**
+     * 删除酒店数据
+     *
+     * @param id 要删除的酒店id
+     */
     @DeleteMapping("/{id}")
     public void deleteById(@PathVariable("id") Long id)
     {
-        hotelService.removeById(id);
-        // 发送MQ消息
-        rabbitTemplate.convertAndSend(RabbitMQConstants.EXCHANGE_NAME, RabbitMQConstants.DELETE_KEY, id);
+        this.hotelService.deleteHotelById(id);
     }
 }

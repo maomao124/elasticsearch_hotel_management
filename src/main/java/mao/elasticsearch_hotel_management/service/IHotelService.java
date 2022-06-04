@@ -19,4 +19,9 @@ import mao.elasticsearch_hotel_management.entity.Hotel;
 public interface IHotelService extends IService<Hotel>
 {
 
+    void deleteHotelById(Long id);
+
+    void updateHotelById(Hotel hotel);
+
+    void saveHotel(Hotel hotel);
 }
