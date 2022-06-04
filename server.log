@@ -90,3 +90,5 @@
 2022-06-04 15:08:33.216 DEBUG 16848 --- [http-nio-8090-exec-1] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?
 2022-06-04 15:08:33.216 DEBUG 16848 --- [http-nio-8090-exec-1] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 5(Long)
 2022-06-04 15:08:33.217 DEBUG 16848 --- [http-nio-8090-exec-1] m.e.mapper.HotelMapper.selectPage        : <==      Total: 5
+2022-06-04 15:10:22.183  INFO 16848 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closing ...
+2022-06-04 15:10:22.184  INFO 16848 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
