@@ -1,0 +1,35 @@
+/*
+  Project name(项目名称)：elasticsearch_hotel_management 
+  File name(文件名): index
+  Author(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/6/4 
+  Time(创建时间)： 12:57
+  Version(版本): 1.0
+  Description(描述)： 无
+ */
+
+
+#app {
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.el-dialog {
+    padding: 0 20px;
+}
+
+.add-btn {
+    width: 100%;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+h1 {
+    transform: translate(0%, 90%);
+}

@@ -1,0 +1,113 @@
+2022-06-04 15:00:07.957  INFO 9128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-06-04 15:00:07.968  INFO 9128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-04 15:00:07.969  INFO 9128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-04 15:00:08.034  INFO 9128 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-04 15:00:08.034  INFO 9128 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 926 ms
+2022-06-04 15:00:08.235  INFO 9128 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-04 15:00:08.328  INFO 9128 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-06-04 15:00:08.663  INFO 9128 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-06-04 15:00:08.818  INFO 9128 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-04 15:00:08.886  INFO 9128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-04 15:00:08.897  INFO 9128 --- [restartedMain] .ElasticsearchHotelManagementApplication : Started ElasticsearchHotelManagementApplication in 2.158 seconds (JVM running for 2.668)
+2022-06-04 15:00:14.840  INFO 9128 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-04 15:00:14.840  INFO 9128 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-04 15:00:14.841  INFO 9128 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-04 15:00:15.100 DEBUG 9128 --- [http-nio-8090-exec-7] m.e.controller.HotelController           : 页码：1，页大小：5
+2022-06-04 15:00:15.329 DEBUG 9128 --- [http-nio-8090-exec-7] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel
+2022-06-04 15:00:15.344 DEBUG 9128 --- [http-nio-8090-exec-7] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 
+2022-06-04 15:00:15.385 DEBUG 9128 --- [http-nio-8090-exec-7] m.e.mapper.HotelMapper.selectPage        : <==      Total: 201
+2022-06-04 15:00:15.396  WARN 9128 --- [http-nio-8090-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2022-06-04 15:01:54.445  INFO 9128 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-06-04 15:01:54.449  INFO 9128 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-06-04 15:02:32.913  INFO 16848 --- [restartedMain] .ElasticsearchHotelManagementApplication : Starting ElasticsearchHotelManagementApplication using Java 16.0.2 on mao with PID 16848 (H:\程序\大三下期\elasticsearch_hotel_management\target\classes started by mao in H:\程序\大三下期\elasticsearch_hotel_management)
+2022-06-04 15:02:32.914 DEBUG 16848 --- [restartedMain] .ElasticsearchHotelManagementApplication : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-04 15:02:32.914  INFO 16848 --- [restartedMain] .ElasticsearchHotelManagementApplication : The following 1 profile is active: "dev"
+2022-06-04 15:02:32.945  INFO 16848 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-04 15:02:32.946  INFO 16848 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-04 15:02:33.777  INFO 16848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-06-04 15:02:33.784  INFO 16848 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-04 15:02:33.784  INFO 16848 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-04 15:02:33.848  INFO 16848 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-04 15:02:33.849  INFO 16848 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 902 ms
+2022-06-04 15:02:34.052  INFO 16848 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-04 15:02:34.144  INFO 16848 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-06-04 15:02:34.482  INFO 16848 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-06-04 15:02:34.634  INFO 16848 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-04 15:02:34.706  INFO 16848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-04 15:02:34.717  INFO 16848 --- [restartedMain] .ElasticsearchHotelManagementApplication : Started ElasticsearchHotelManagementApplication in 2.13 seconds (JVM running for 2.645)
+2022-06-04 15:02:39.424  INFO 16848 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-04 15:02:39.424  INFO 16848 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-04 15:02:39.425  INFO 16848 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-04 15:02:39.685 DEBUG 16848 --- [http-nio-8090-exec-7] m.e.controller.HotelController           : 页码：1，页大小：5
+2022-06-04 15:02:39.929 DEBUG 16848 --- [http-nio-8090-exec-7] m.e.m.HotelMapper.selectPage_mpCount     : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_hotel
+2022-06-04 15:02:39.943 DEBUG 16848 --- [http-nio-8090-exec-7] m.e.m.HotelMapper.selectPage_mpCount     : ==> Parameters: 
+2022-06-04 15:02:39.961 DEBUG 16848 --- [http-nio-8090-exec-7] m.e.m.HotelMapper.selectPage_mpCount     : <==      Total: 1
+2022-06-04 15:02:39.965 DEBUG 16848 --- [http-nio-8090-exec-7] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?
+2022-06-04 15:02:39.966 DEBUG 16848 --- [http-nio-8090-exec-7] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 5(Long)
+2022-06-04 15:02:39.969 DEBUG 16848 --- [http-nio-8090-exec-7] m.e.mapper.HotelMapper.selectPage        : <==      Total: 5
+2022-06-04 15:02:39.978  WARN 16848 --- [http-nio-8090-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2022-06-04 15:02:41.918 DEBUG 16848 --- [http-nio-8090-exec-9] m.e.controller.HotelController           : 页码：1，页大小：5
+2022-06-04 15:02:41.921 DEBUG 16848 --- [http-nio-8090-exec-9] m.e.m.HotelMapper.selectPage_mpCount     : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_hotel
+2022-06-04 15:02:41.922 DEBUG 16848 --- [http-nio-8090-exec-9] m.e.m.HotelMapper.selectPage_mpCount     : ==> Parameters: 
+2022-06-04 15:02:41.924 DEBUG 16848 --- [http-nio-8090-exec-9] m.e.m.HotelMapper.selectPage_mpCount     : <==      Total: 1
+2022-06-04 15:02:41.924 DEBUG 16848 --- [http-nio-8090-exec-9] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?
+2022-06-04 15:02:41.925 DEBUG 16848 --- [http-nio-8090-exec-9] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 5(Long)
+2022-06-04 15:02:41.928 DEBUG 16848 --- [http-nio-8090-exec-9] m.e.mapper.HotelMapper.selectPage        : <==      Total: 5
+2022-06-04 15:02:41.928  WARN 16848 --- [http-nio-8090-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2022-06-04 15:03:38.000 DEBUG 16848 --- [http-nio-8090-exec-7] m.e.controller.HotelController           : 页码：2，页大小：5
+2022-06-04 15:03:38.002 DEBUG 16848 --- [http-nio-8090-exec-7] m.e.m.HotelMapper.selectPage_mpCount     : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_hotel
+2022-06-04 15:03:38.002 DEBUG 16848 --- [http-nio-8090-exec-7] m.e.m.HotelMapper.selectPage_mpCount     : ==> Parameters: 
+2022-06-04 15:03:38.004 DEBUG 16848 --- [http-nio-8090-exec-7] m.e.m.HotelMapper.selectPage_mpCount     : <==      Total: 1
+2022-06-04 15:03:38.005 DEBUG 16848 --- [http-nio-8090-exec-7] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?,?
+2022-06-04 15:03:38.006 DEBUG 16848 --- [http-nio-8090-exec-7] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 5(Long), 5(Long)
+2022-06-04 15:03:38.009 DEBUG 16848 --- [http-nio-8090-exec-7] m.e.mapper.HotelMapper.selectPage        : <==      Total: 5
+2022-06-04 15:03:38.009  WARN 16848 --- [http-nio-8090-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2022-06-04 15:03:53.752 DEBUG 16848 --- [http-nio-8090-exec-2] m.e.controller.HotelController           : 页码：3，页大小：5
+2022-06-04 15:03:53.755 DEBUG 16848 --- [http-nio-8090-exec-2] m.e.m.HotelMapper.selectPage_mpCount     : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_hotel
+2022-06-04 15:03:53.755 DEBUG 16848 --- [http-nio-8090-exec-2] m.e.m.HotelMapper.selectPage_mpCount     : ==> Parameters: 
+2022-06-04 15:03:53.757 DEBUG 16848 --- [http-nio-8090-exec-2] m.e.m.HotelMapper.selectPage_mpCount     : <==      Total: 1
+2022-06-04 15:03:53.758 DEBUG 16848 --- [http-nio-8090-exec-2] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?,?
+2022-06-04 15:03:53.758 DEBUG 16848 --- [http-nio-8090-exec-2] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 10(Long), 5(Long)
+2022-06-04 15:03:53.763 DEBUG 16848 --- [http-nio-8090-exec-2] m.e.mapper.HotelMapper.selectPage        : <==      Total: 5
+2022-06-04 15:03:53.763  WARN 16848 --- [http-nio-8090-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2022-06-04 15:07:14.900  INFO 16848 --- [Thread-5] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-06-04 15:07:14.903  INFO 16848 --- [Thread-5] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-06-04 15:07:14.978  INFO 16848 --- [restartedMain] .ElasticsearchHotelManagementApplication : Starting ElasticsearchHotelManagementApplication using Java 16.0.2 on mao with PID 16848 (H:\程序\大三下期\elasticsearch_hotel_management\target\classes started by mao in H:\程序\大三下期\elasticsearch_hotel_management)
+2022-06-04 15:07:14.978 DEBUG 16848 --- [restartedMain] .ElasticsearchHotelManagementApplication : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-04 15:07:14.979  INFO 16848 --- [restartedMain] .ElasticsearchHotelManagementApplication : The following 1 profile is active: "dev"
+2022-06-04 15:07:15.185  INFO 16848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-06-04 15:07:15.186  INFO 16848 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-04 15:07:15.186  INFO 16848 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-04 15:07:15.203  INFO 16848 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-04 15:07:15.204  INFO 16848 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 223 ms
+2022-06-04 15:07:15.236  INFO 16848 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-04 15:07:15.268  INFO 16848 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2022-06-04 15:07:15.372  INFO 16848 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-06-04 15:07:15.420  INFO 16848 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-04 15:07:15.446  INFO 16848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-04 15:07:15.450  INFO 16848 --- [restartedMain] .ElasticsearchHotelManagementApplication : Started ElasticsearchHotelManagementApplication in 0.511 seconds (JVM running for 283.378)
+2022-06-04 15:07:15.451  INFO 16848 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-04 15:07:22.186  INFO 16848 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-04 15:07:22.187  INFO 16848 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-04 15:07:22.187  INFO 16848 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-06-04 15:07:22.406 DEBUG 16848 --- [http-nio-8090-exec-7] m.e.controller.HotelController           : 页码：1，页大小：5
+2022-06-04 15:07:22.439 DEBUG 16848 --- [http-nio-8090-exec-7] m.e.m.HotelMapper.selectPage_mpCount     : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_hotel
+2022-06-04 15:07:22.440 DEBUG 16848 --- [http-nio-8090-exec-7] m.e.m.HotelMapper.selectPage_mpCount     : ==> Parameters: 
+2022-06-04 15:07:22.442 DEBUG 16848 --- [http-nio-8090-exec-7] m.e.m.HotelMapper.selectPage_mpCount     : <==      Total: 1
+2022-06-04 15:07:22.443 DEBUG 16848 --- [http-nio-8090-exec-7] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?
+2022-06-04 15:07:22.444 DEBUG 16848 --- [http-nio-8090-exec-7] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 5(Long)
+2022-06-04 15:07:22.446 DEBUG 16848 --- [http-nio-8090-exec-7] m.e.mapper.HotelMapper.selectPage        : <==      Total: 5
+2022-06-04 15:07:23.638 DEBUG 16848 --- [http-nio-8090-exec-6] m.e.controller.HotelController           : 页码：1，页大小：5
+2022-06-04 15:07:23.639 DEBUG 16848 --- [http-nio-8090-exec-6] m.e.m.HotelMapper.selectPage_mpCount     : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_hotel
+2022-06-04 15:07:23.640 DEBUG 16848 --- [http-nio-8090-exec-6] m.e.m.HotelMapper.selectPage_mpCount     : ==> Parameters: 
+2022-06-04 15:07:23.641 DEBUG 16848 --- [http-nio-8090-exec-6] m.e.m.HotelMapper.selectPage_mpCount     : <==      Total: 1
+2022-06-04 15:07:23.642 DEBUG 16848 --- [http-nio-8090-exec-6] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?
+2022-06-04 15:07:23.642 DEBUG 16848 --- [http-nio-8090-exec-6] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 5(Long)
+2022-06-04 15:07:23.644 DEBUG 16848 --- [http-nio-8090-exec-6] m.e.mapper.HotelMapper.selectPage        : <==      Total: 5
+2022-06-04 15:07:24.271 DEBUG 16848 --- [http-nio-8090-exec-4] m.e.controller.HotelController           : 页码：1，页大小：5
+2022-06-04 15:07:24.273 DEBUG 16848 --- [http-nio-8090-exec-4] m.e.m.HotelMapper.selectPage_mpCount     : ==>  Preparing: SELECT COUNT(*) AS total FROM tb_hotel
+2022-06-04 15:07:24.273 DEBUG 16848 --- [http-nio-8090-exec-4] m.e.m.HotelMapper.selectPage_mpCount     : ==> Parameters: 
+2022-06-04 15:07:24.275 DEBUG 16848 --- [http-nio-8090-exec-4] m.e.m.HotelMapper.selectPage_mpCount     : <==      Total: 1
+2022-06-04 15:07:24.276 DEBUG 16848 --- [http-nio-8090-exec-4] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel LIMIT ?
+2022-06-04 15:07:24.277 DEBUG 16848 --- [http-nio-8090-exec-4] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 5(Long)
+2022-06-04 15:07:24.280 DEBUG 16848 --- [http-nio-8090-exec-4] m.e.mapper.HotelMapper.selectPage        : <==      Total: 5

@@ -1,0 +1,94 @@
+2022-06-04 14:50:55.506  INFO 15644 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (hotel.delete.queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-06-04 14:50:55.595  INFO 15644 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-06-04 14:50:55.597  INFO 15644 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-06-04 14:52:26.505  INFO 4036 --- [main] m.e.config.RabbitMQConfigTest            : Starting RabbitMQConfigTest using Java 16.0.2 on mao with PID 4036 (started by mao in H:\程序\大三下期\elasticsearch_hotel_management)
+2022-06-04 14:52:26.506 DEBUG 4036 --- [main] m.e.config.RabbitMQConfigTest            : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-04 14:52:26.507  INFO 4036 --- [main] m.e.config.RabbitMQConfigTest            : The following 1 profile is active: "dev"
+2022-06-04 14:52:27.568  INFO 4036 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-04 14:52:27.829  INFO 4036 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-06-04 14:52:29.273  INFO 4036 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-06-04 14:52:29.798  INFO 4036 --- [main] m.e.config.RabbitMQConfigTest            : Started RabbitMQConfigTest in 3.707 seconds (JVM running for 4.677)
+2022-06-04 14:52:30.413  INFO 4036 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2022-06-04 14:52:30.452  INFO 4036 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#5d124d29:0/SimpleConnection@41e7a544 [delegate=amqp://admin@127.0.0.1:5672/, localPort= 56928]
+2022-06-04 14:52:30.456  INFO 4036 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable or auto-delete Exchange (hotel.exchange) durable:false, auto-delete:false. It will be deleted by the broker if it shuts down, and can be redeclared by closing and reopening the connection.
+2022-06-04 14:52:30.456  INFO 4036 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (hotel.insert.queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-06-04 14:52:30.456  INFO 4036 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (hotel.delete.queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-06-04 14:52:30.546  INFO 4036 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-06-04 14:52:30.548  INFO 4036 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-06-04 14:53:48.793  INFO 17500 --- [main] m.e.config.RabbitMQConfigTest            : Starting RabbitMQConfigTest using Java 16.0.2 on mao with PID 17500 (started by mao in H:\程序\大三下期\elasticsearch_hotel_management)
+2022-06-04 14:53:48.794 DEBUG 17500 --- [main] m.e.config.RabbitMQConfigTest            : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-04 14:53:48.795  INFO 17500 --- [main] m.e.config.RabbitMQConfigTest            : The following 1 profile is active: "dev"
+2022-06-04 14:53:50.183  INFO 17500 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-04 14:53:50.428  INFO 17500 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-06-04 14:53:51.474  INFO 17500 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-06-04 14:53:52.057  INFO 17500 --- [main] m.e.config.RabbitMQConfigTest            : Started RabbitMQConfigTest in 3.678 seconds (JVM running for 4.735)
+2022-06-04 14:53:52.920  INFO 17500 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2022-06-04 14:53:52.989  INFO 17500 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#1f1cddf3:0/SimpleConnection@5b88af70 [delegate=amqp://admin@127.0.0.1:5672/, localPort= 56983]
+2022-06-04 14:53:52.997  INFO 17500 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable or auto-delete Exchange (hotel.exchange) durable:false, auto-delete:false. It will be deleted by the broker if it shuts down, and can be redeclared by closing and reopening the connection.
+2022-06-04 14:53:52.998  INFO 17500 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (hotel.insert.queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-06-04 14:53:52.998  INFO 17500 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (hotel.delete.queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-06-04 14:53:53.094  INFO 17500 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-06-04 14:53:53.097  INFO 17500 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-06-04 14:54:07.927  INFO 2612 --- [restartedMain] .ElasticsearchHotelManagementApplication : Starting ElasticsearchHotelManagementApplication using Java 16.0.2 on mao with PID 2612 (H:\程序\大三下期\elasticsearch_hotel_management\target\classes started by mao in H:\程序\大三下期\elasticsearch_hotel_management)
+2022-06-04 14:54:07.928 DEBUG 2612 --- [restartedMain] .ElasticsearchHotelManagementApplication : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-04 14:54:07.928  INFO 2612 --- [restartedMain] .ElasticsearchHotelManagementApplication : The following 1 profile is active: "dev"
+2022-06-04 14:54:07.964  INFO 2612 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-04 14:54:07.964  INFO 2612 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-04 14:54:08.824  INFO 2612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-06-04 14:54:08.831  INFO 2612 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-04 14:54:08.831  INFO 2612 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-04 14:54:08.893  INFO 2612 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-04 14:54:08.894  INFO 2612 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 930 ms
+2022-06-04 14:54:09.089  INFO 2612 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-04 14:54:09.182  INFO 2612 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-06-04 14:54:09.510  INFO 2612 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-06-04 14:54:09.668  INFO 2612 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-04 14:54:09.741  INFO 2612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-04 14:54:09.753  INFO 2612 --- [restartedMain] .ElasticsearchHotelManagementApplication : Started ElasticsearchHotelManagementApplication in 2.166 seconds (JVM running for 2.671)
+2022-06-04 14:55:20.760  INFO 2612 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-04 14:55:20.760  INFO 2612 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-04 14:55:20.761  INFO 2612 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-04 14:56:21.833  INFO 2612 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-06-04 14:56:21.834  INFO 2612 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-06-04 14:56:34.958  INFO 18600 --- [restartedMain] .ElasticsearchHotelManagementApplication : Starting ElasticsearchHotelManagementApplication using Java 16.0.2 on mao with PID 18600 (H:\程序\大三下期\elasticsearch_hotel_management\target\classes started by mao in H:\程序\大三下期\elasticsearch_hotel_management)
+2022-06-04 14:56:34.959 DEBUG 18600 --- [restartedMain] .ElasticsearchHotelManagementApplication : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-04 14:56:34.959  INFO 18600 --- [restartedMain] .ElasticsearchHotelManagementApplication : The following 1 profile is active: "dev"
+2022-06-04 14:56:34.992  INFO 18600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-04 14:56:34.992  INFO 18600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-04 14:56:35.803  INFO 18600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-06-04 14:56:35.809  INFO 18600 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-04 14:56:35.810  INFO 18600 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-04 14:56:35.865  INFO 18600 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-04 14:56:35.865  INFO 18600 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 873 ms
+2022-06-04 14:56:36.074  INFO 18600 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-04 14:56:36.170  INFO 18600 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-06-04 14:56:36.503  INFO 18600 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-06-04 14:56:36.660  INFO 18600 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-04 14:56:36.728  INFO 18600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2022-06-04 14:56:36.738  INFO 18600 --- [restartedMain] .ElasticsearchHotelManagementApplication : Started ElasticsearchHotelManagementApplication in 2.099 seconds (JVM running for 2.617)
+2022-06-04 14:56:40.995  INFO 18600 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-04 14:56:40.995  INFO 18600 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-04 14:56:40.996  INFO 18600 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-04 14:56:41.574 DEBUG 18600 --- [http-nio-8090-exec-7] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel
+2022-06-04 14:56:41.591 DEBUG 18600 --- [http-nio-8090-exec-7] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 
+2022-06-04 14:56:41.663 DEBUG 18600 --- [http-nio-8090-exec-7] m.e.mapper.HotelMapper.selectPage        : <==      Total: 201
+2022-06-04 14:56:41.674  WARN 18600 --- [http-nio-8090-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2022-06-04 14:57:24.612 DEBUG 18600 --- [http-nio-8090-exec-10] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel
+2022-06-04 14:57:24.612 DEBUG 18600 --- [http-nio-8090-exec-10] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 
+2022-06-04 14:57:24.624 DEBUG 18600 --- [http-nio-8090-exec-10] m.e.mapper.HotelMapper.selectPage        : <==      Total: 201
+2022-06-04 14:57:24.624  WARN 18600 --- [http-nio-8090-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2022-06-04 14:57:35.240 DEBUG 18600 --- [http-nio-8090-exec-1] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel
+2022-06-04 14:57:35.240 DEBUG 18600 --- [http-nio-8090-exec-1] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 
+2022-06-04 14:57:35.247 DEBUG 18600 --- [http-nio-8090-exec-1] m.e.mapper.HotelMapper.selectPage        : <==      Total: 201
+2022-06-04 14:57:35.248  WARN 18600 --- [http-nio-8090-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2022-06-04 14:57:38.792 DEBUG 18600 --- [http-nio-8090-exec-2] m.e.mapper.HotelMapper.selectPage        : ==>  Preparing: SELECT id,name,address,price,score,brand,city,star_name,business,longitude,latitude,pic FROM tb_hotel
+2022-06-04 14:57:38.792 DEBUG 18600 --- [http-nio-8090-exec-2] m.e.mapper.HotelMapper.selectPage        : ==> Parameters: 
+2022-06-04 14:57:38.799 DEBUG 18600 --- [http-nio-8090-exec-2] m.e.mapper.HotelMapper.selectPage        : <==      Total: 201
+2022-06-04 14:57:38.800  WARN 18600 --- [http-nio-8090-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2022-06-04 14:58:36.222  INFO 18600 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-06-04 14:58:36.226  INFO 18600 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-06-04 15:00:07.072  INFO 9128 --- [restartedMain] .ElasticsearchHotelManagementApplication : Starting ElasticsearchHotelManagementApplication using Java 16.0.2 on mao with PID 9128 (H:\程序\大三下期\elasticsearch_hotel_management\target\classes started by mao in H:\程序\大三下期\elasticsearch_hotel_management)
+2022-06-04 15:00:07.073 DEBUG 9128 --- [restartedMain] .ElasticsearchHotelManagementApplication : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-04 15:00:07.073  INFO 9128 --- [restartedMain] .ElasticsearchHotelManagementApplication : The following 1 profile is active: "dev"
+2022-06-04 15:00:07.107  INFO 9128 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-04 15:00:07.107  INFO 9128 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'

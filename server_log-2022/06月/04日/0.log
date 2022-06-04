@@ -1,0 +1,101 @@
+2022-06-04 14:40:47.517  INFO 22384 --- [restartedMain] .ElasticsearchHotelManagementApplication : Starting ElasticsearchHotelManagementApplication using Java 16.0.2 on mao with PID 22384 (H:\程序\大三下期\elasticsearch_hotel_management\target\classes started by mao in H:\程序\大三下期\elasticsearch_hotel_management)
+2022-06-04 14:40:47.518 DEBUG 22384 --- [restartedMain] .ElasticsearchHotelManagementApplication : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-04 14:40:47.519  INFO 22384 --- [restartedMain] .ElasticsearchHotelManagementApplication : The following 1 profile is active: "dev"
+2022-06-04 14:40:47.554  INFO 22384 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-04 14:40:47.555  INFO 22384 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-04 14:40:48.478  INFO 22384 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2022-06-04 14:40:48.486  INFO 22384 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-04 14:40:48.486  INFO 22384 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-04 14:40:48.550  INFO 22384 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-04 14:40:48.550  INFO 22384 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 995 ms
+2022-06-04 14:40:48.613  INFO 22384 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-04 14:40:48.723  INFO 22384 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-06-04 14:40:49.313  INFO 22384 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-06-04 14:40:49.473  INFO 22384 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-04 14:40:49.543  INFO 22384 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8099 (http) with context path ''
+2022-06-04 14:40:49.555  INFO 22384 --- [restartedMain] .ElasticsearchHotelManagementApplication : Started ElasticsearchHotelManagementApplication in 2.388 seconds (JVM running for 3.121)
+2022-06-04 14:41:00.415  INFO 22384 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-06-04 14:41:00.416  INFO 22384 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-06-04 14:41:52.416  INFO 4296 --- [restartedMain] .ElasticsearchHotelManagementApplication : Starting ElasticsearchHotelManagementApplication using Java 16.0.2 on mao with PID 4296 (H:\程序\大三下期\elasticsearch_hotel_management\target\classes started by mao in H:\程序\大三下期\elasticsearch_hotel_management)
+2022-06-04 14:41:52.417 DEBUG 4296 --- [restartedMain] .ElasticsearchHotelManagementApplication : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-04 14:41:52.418  INFO 4296 --- [restartedMain] .ElasticsearchHotelManagementApplication : The following 1 profile is active: "dev"
+2022-06-04 14:41:52.451  INFO 4296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-04 14:41:52.451  INFO 4296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-04 14:41:53.306  INFO 4296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2022-06-04 14:41:53.313  INFO 4296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-04 14:41:53.314  INFO 4296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-04 14:41:53.376  INFO 4296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-04 14:41:53.376  INFO 4296 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 924 ms
+2022-06-04 14:41:53.435  INFO 4296 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-04 14:41:53.529  INFO 4296 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-06-04 14:41:53.996  INFO 4296 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-06-04 14:41:54.149  INFO 4296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-04 14:41:54.220  INFO 4296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8099 (http) with context path ''
+2022-06-04 14:41:54.231  INFO 4296 --- [restartedMain] .ElasticsearchHotelManagementApplication : Started ElasticsearchHotelManagementApplication in 2.155 seconds (JVM running for 2.662)
+2022-06-04 14:42:51.473  INFO 4296 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-06-04 14:42:51.474  INFO 4296 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-06-04 14:42:55.714  INFO 10396 --- [restartedMain] .ElasticsearchHotelManagementApplication : Starting ElasticsearchHotelManagementApplication using Java 16.0.2 on mao with PID 10396 (H:\程序\大三下期\elasticsearch_hotel_management\target\classes started by mao in H:\程序\大三下期\elasticsearch_hotel_management)
+2022-06-04 14:42:55.715 DEBUG 10396 --- [restartedMain] .ElasticsearchHotelManagementApplication : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-04 14:42:55.716  INFO 10396 --- [restartedMain] .ElasticsearchHotelManagementApplication : The following 1 profile is active: "dev"
+2022-06-04 14:42:55.749  INFO 10396 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-04 14:42:55.749  INFO 10396 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-04 14:42:56.600  INFO 10396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2022-06-04 14:42:56.608  INFO 10396 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-04 14:42:56.608  INFO 10396 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-04 14:42:56.675  INFO 10396 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-04 14:42:56.675  INFO 10396 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 925 ms
+2022-06-04 14:42:56.735  INFO 10396 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-04 14:42:56.832  INFO 10396 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-06-04 14:42:57.322  INFO 10396 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-06-04 14:42:57.485  INFO 10396 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-04 14:42:57.557  INFO 10396 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8099 (http) with context path ''
+2022-06-04 14:42:57.568  INFO 10396 --- [restartedMain] .ElasticsearchHotelManagementApplication : Started ElasticsearchHotelManagementApplication in 2.198 seconds (JVM running for 2.722)
+2022-06-04 14:43:17.795  INFO 10396 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-06-04 14:43:17.796  INFO 10396 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-06-04 14:44:12.230  INFO 18052 --- [restartedMain] .ElasticsearchHotelManagementApplication : Starting ElasticsearchHotelManagementApplication using Java 16.0.2 on mao with PID 18052 (H:\程序\大三下期\elasticsearch_hotel_management\target\classes started by mao in H:\程序\大三下期\elasticsearch_hotel_management)
+2022-06-04 14:44:12.231 DEBUG 18052 --- [restartedMain] .ElasticsearchHotelManagementApplication : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-04 14:44:12.231  INFO 18052 --- [restartedMain] .ElasticsearchHotelManagementApplication : The following 1 profile is active: "dev"
+2022-06-04 14:44:12.270  INFO 18052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-04 14:44:12.270  INFO 18052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-04 14:44:13.119  INFO 18052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2022-06-04 14:44:13.126  INFO 18052 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-04 14:44:13.126  INFO 18052 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-04 14:44:13.188  INFO 18052 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-04 14:44:13.188  INFO 18052 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 917 ms
+2022-06-04 14:44:13.249  INFO 18052 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-04 14:44:13.344  INFO 18052 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-06-04 14:44:13.833  INFO 18052 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-06-04 14:44:13.990  INFO 18052 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-04 14:44:14.063  INFO 18052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8099 (http) with context path ''
+2022-06-04 14:44:14.074  INFO 18052 --- [restartedMain] .ElasticsearchHotelManagementApplication : Started ElasticsearchHotelManagementApplication in 2.183 seconds (JVM running for 2.768)
+2022-06-04 14:44:36.107  INFO 18052 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-06-04 14:44:36.108  INFO 18052 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-06-04 14:48:04.469  INFO 12824 --- [restartedMain] .ElasticsearchHotelManagementApplication : Starting ElasticsearchHotelManagementApplication using Java 16.0.2 on mao with PID 12824 (H:\程序\大三下期\elasticsearch_hotel_management\target\classes started by mao in H:\程序\大三下期\elasticsearch_hotel_management)
+2022-06-04 14:48:04.469 DEBUG 12824 --- [restartedMain] .ElasticsearchHotelManagementApplication : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-04 14:48:04.470  INFO 12824 --- [restartedMain] .ElasticsearchHotelManagementApplication : The following 1 profile is active: "dev"
+2022-06-04 14:48:04.504  INFO 12824 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-04 14:48:04.504  INFO 12824 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-04 14:48:05.355  INFO 12824 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2022-06-04 14:48:05.361  INFO 12824 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-04 14:48:05.362  INFO 12824 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-04 14:48:05.424  INFO 12824 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-04 14:48:05.424  INFO 12824 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 919 ms
+2022-06-04 14:48:05.485  INFO 12824 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-04 14:48:05.579  INFO 12824 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-06-04 14:48:06.042  INFO 12824 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-06-04 14:48:06.194  INFO 12824 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-04 14:48:06.265  INFO 12824 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8099 (http) with context path ''
+2022-06-04 14:48:06.276  INFO 12824 --- [restartedMain] .ElasticsearchHotelManagementApplication : Started ElasticsearchHotelManagementApplication in 2.144 seconds (JVM running for 2.662)
+2022-06-04 14:48:55.419  INFO 12824 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-06-04 14:48:55.420  INFO 12824 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-06-04 14:50:51.522  INFO 15644 --- [main] m.e.config.RabbitMQConfigTest            : Starting RabbitMQConfigTest using Java 16.0.2 on mao with PID 15644 (started by mao in H:\程序\大三下期\elasticsearch_hotel_management)
+2022-06-04 14:50:51.523 DEBUG 15644 --- [main] m.e.config.RabbitMQConfigTest            : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-04 14:50:51.524  INFO 15644 --- [main] m.e.config.RabbitMQConfigTest            : The following 1 profile is active: "dev"
+2022-06-04 14:50:52.584  INFO 15644 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-06-04 14:50:52.852  INFO 15644 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-06-04 14:50:54.247  INFO 15644 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-06-04 14:50:54.782  INFO 15644 --- [main] m.e.config.RabbitMQConfigTest            : Started RabbitMQConfigTest in 3.681 seconds (JVM running for 4.679)
+2022-06-04 14:50:55.458  INFO 15644 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2022-06-04 14:50:55.502  INFO 15644 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#2cfe272f:0/SimpleConnection@1fe05fff [delegate=amqp://admin@127.0.0.1:5672/, localPort= 56877]
+2022-06-04 14:50:55.506  INFO 15644 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable or auto-delete Exchange (hotel.exchange) durable:false, auto-delete:false. It will be deleted by the broker if it shuts down, and can be redeclared by closing and reopening the connection.
+2022-06-04 14:50:55.506  INFO 15644 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (hotel.insert.queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
